@@ -19,7 +19,7 @@ class _ContentPageState extends State<ContentPage> {
           child: ListView(
             children: [
               Text(
-                "Title" + widget._photoModel.title,
+                widget._photoModel.title,
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,

@@ -18,7 +18,6 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
 
-    //fetch data from API
     getData();
   }
 
